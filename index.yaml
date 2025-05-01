@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  encoder-demo:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-05-01T17:22:53.407728659+02:00"
+    description: Test encoder
+    digest: b749f0af7a149e92de460e31d941af565c312cb47e410c66fb71a9b98aaa2e9e
+    name: encoder-demo
+    type: application
+    urls:
+    - https://caseik.github.io/helm_charts/encoder-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-01T17:22:53.407357035+02:00"
