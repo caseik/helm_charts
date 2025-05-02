@@ -3,9 +3,9 @@ entries:
   encoder:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-02T16:43:15.832813845+02:00"
+    created: "2025-05-02T16:45:33.776796556+02:00"
     description: Helm chart for video encoder service
-    digest: 41e4385f12673d47d530b90d1bb047778f510c6a7e9637fbdefac72e95f9d48c
+    digest: fbb38733c74e2bf55f0b1fb2b702e174da8d9fc5684209c327c82de9354fad04
     name: encoder
     urls:
     - https://caseik.github.io/helm_charts/encoder-0.1.0.tgz
@@ -13,7 +13,7 @@ entries:
   encoder-demo:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-05-02T16:43:15.833264269+02:00"
+    created: "2025-05-02T16:45:33.776910249+02:00"
     description: Test encoder
     digest: b749f0af7a149e92de460e31d941af565c312cb47e410c66fb71a9b98aaa2e9e
     name: encoder-demo
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://caseik.github.io/helm_charts/encoder-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-02T16:43:15.832436131+02:00"
+generated: "2025-05-02T16:45:33.776498571+02:00"
