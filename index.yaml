@@ -3,7 +3,7 @@ entries:
   encoder:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-02T17:25:30.591727445+02:00"
+    created: "2025-05-02T17:33:49.383979367+02:00"
     description: Helm chart for video encoder service
     digest: fbb38733c74e2bf55f0b1fb2b702e174da8d9fc5684209c327c82de9354fad04
     name: encoder
@@ -13,7 +13,7 @@ entries:
   encoder-demo:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-05-02T17:25:30.592082083+02:00"
+    created: "2025-05-02T17:33:49.384099043+02:00"
     description: Test encoder
     digest: b749f0af7a149e92de460e31d941af565c312cb47e410c66fb71a9b98aaa2e9e
     name: encoder-demo
@@ -24,11 +24,11 @@ entries:
   packager:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-02T17:25:30.59226115+02:00"
+    created: "2025-05-02T17:33:49.384283844+02:00"
     description: Packager + Nginx Helm chart for HLS live segments
-    digest: efe80ccdf83102374d40abf7e70c8db8c7ff7a2de9153bd57dc57143f44189e3
+    digest: ac90ba2c393196ae69b801d50fd639fcef0062c1e09032116c49163f05697d92
     name: packager
     urls:
     - https://caseik.github.io/helm_charts/packager-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-02T17:25:30.591179809+02:00"
+generated: "2025-05-02T17:33:49.383640748+02:00"
