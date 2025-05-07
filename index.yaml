@@ -3,7 +3,7 @@ entries:
   encoder-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T19:39:04.322505662+02:00"
+    created: "2025-05-07T17:57:18.880038571Z"
     description: Helm chart for video encoder
     digest: 6966b547ef14fdfc5a6303a603d32ad4f0eb344280c1f7e0c31c7aed9a64b95f
     name: encoder-base
@@ -13,21 +13,33 @@ entries:
   packager-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T19:39:04.322652557+02:00"
+    created: "2025-05-07T17:57:18.88027323Z"
     description: Packager dash
     digest: a52228afd5896c9b736b0fca9e70a8cfd1fb080c4da3adcae588803f2141b229
     name: packager-base
     urls:
     - https://caseik.github.io/helm_charts/packager-base-0.1.0.tgz
     version: 0.1.0
+  packager-server:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-05-07T17:57:18.88049237Z"
+    description: 'Helm chart that deploys a lightweight Packager and Nginx Server
+      combined for IoT and small-scale streaming projects. Designed for environments
+      without advanced Kubernetes storage (e.g., no RWX support) like Jetson Nano. '
+    digest: 319159c9423aac537fbf4fd64f590d870e79a4bd27e9c256e529e88868d0dda2
+    name: packager-server
+    urls:
+    - https://caseik.github.io/helm_charts/packager-server-0.1.0.tgz
+    version: 0.1.0
   server-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T19:39:04.322776121+02:00"
+    created: "2025-05-07T17:57:18.880671264Z"
     description: Nginx Helm chart with shaka player
     digest: e1c9fc478533ea24e05b94f00321a96e1b06f2ed2ffe4b0d53a586509efe4bc6
     name: server-base
     urls:
     - https://caseik.github.io/helm_charts/server-base-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-07T19:39:04.322221221+02:00"
+generated: "2025-05-07T17:57:18.879710909Z"
