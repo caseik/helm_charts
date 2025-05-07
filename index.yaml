@@ -1,50 +1,19 @@
 apiVersion: v1
 entries:
-  encoder:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-05-07T17:18:22.968791812Z"
-    description: Helm chart for video encoder service
-    digest: 4bbec0d5703ce9a5431c5ea82042a7ade7a590bfc6841287f0d4c06082938224
-    name: encoder
-    urls:
-    - https://caseik.github.io/helm_charts/encoder-0.1.0.tgz
-    version: 0.1.0
   encoder-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T17:18:22.969073809Z"
+    created: "2025-05-07T19:39:04.322505662+02:00"
     description: Helm chart for video encoder
     digest: 6966b547ef14fdfc5a6303a603d32ad4f0eb344280c1f7e0c31c7aed9a64b95f
     name: encoder-base
     urls:
     - https://caseik.github.io/helm_charts/encoder-base-0.1.0.tgz
     version: 0.1.0
-  encoder-demo:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-05-07T17:18:22.969339915Z"
-    description: Test encoder
-    digest: b749f0af7a149e92de460e31d941af565c312cb47e410c66fb71a9b98aaa2e9e
-    name: encoder-demo
-    type: application
-    urls:
-    - https://caseik.github.io/helm_charts/encoder-demo-0.1.0.tgz
-    version: 0.1.0
-  packager:
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2025-05-07T17:18:22.969741309Z"
-    description: Packager + Nginx Helm chart for HLS live segments
-    digest: cd376e712e9dc91607f07109b515e980c3848854c1ea402dc72e1ba6c7bbd129
-    name: packager
-    urls:
-    - https://caseik.github.io/helm_charts/packager-0.1.0.tgz
-    version: 0.1.0
   packager-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T17:18:22.970043144Z"
+    created: "2025-05-07T19:39:04.322652557+02:00"
     description: Packager dash
     digest: a52228afd5896c9b736b0fca9e70a8cfd1fb080c4da3adcae588803f2141b229
     name: packager-base
@@ -54,11 +23,11 @@ entries:
   server-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T17:18:22.97032998Z"
+    created: "2025-05-07T19:39:04.322776121+02:00"
     description: Nginx Helm chart with shaka player
     digest: e1c9fc478533ea24e05b94f00321a96e1b06f2ed2ffe4b0d53a586509efe4bc6
     name: server-base
     urls:
     - https://caseik.github.io/helm_charts/server-base-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-07T17:18:22.968074857Z"
+generated: "2025-05-07T19:39:04.322221221+02:00"
