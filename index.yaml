@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  encoder-ai:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-05-16T00:17:54.545494004Z"
+    description: Helm chart for video encoder
+    digest: 5f7de6354fb4f6708574ee538e7dc733878ba2bb91dcaf33d0abf52244c79c8a
+    name: encoder-ai
+    urls:
+    - https://caseik.github.io/helm_charts/encoder-ai-0.1.0.tgz
+    version: 0.1.0
   encoder-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T18:09:19.621933352Z"
+    created: "2025-05-16T00:17:54.545679872Z"
     description: Helm chart for video encoder
     digest: 6966b547ef14fdfc5a6303a603d32ad4f0eb344280c1f7e0c31c7aed9a64b95f
     name: encoder-base
@@ -13,7 +23,7 @@ entries:
   packager-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T18:09:19.622121366Z"
+    created: "2025-05-16T00:17:54.545847016Z"
     description: Packager dash
     digest: a52228afd5896c9b736b0fca9e70a8cfd1fb080c4da3adcae588803f2141b229
     name: packager-base
@@ -23,7 +33,7 @@ entries:
   packager-server:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T18:09:19.622376024Z"
+    created: "2025-05-16T00:17:54.546045287Z"
     description: 'Helm chart that deploys a lightweight Packager and Nginx Server
       combined for IoT and small-scale streaming projects. Designed for environments
       without advanced Kubernetes storage (e.g., no RWX support) like Jetson Nano. '
@@ -35,11 +45,11 @@ entries:
   server-base:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-05-07T18:09:19.622540914Z"
+    created: "2025-05-16T00:17:54.546218972Z"
     description: Nginx Helm chart with shaka player
     digest: e1c9fc478533ea24e05b94f00321a96e1b06f2ed2ffe4b0d53a586509efe4bc6
     name: server-base
     urls:
     - https://caseik.github.io/helm_charts/server-base-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-07T18:09:19.621624091Z"
+generated: "2025-05-16T00:17:54.545218929Z"
